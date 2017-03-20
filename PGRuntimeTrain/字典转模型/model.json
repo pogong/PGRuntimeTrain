@@ -1,0 +1,21 @@
+{
+    "id" : 1111,
+    "name" : "Tom",
+    "age" : 20,
+    "height" : "181",
+    "money" : "1000",
+    "cat" : {
+        "name" : "Persia",
+        "weight" : "500"
+    },
+    "friends" : [
+                 {
+                 "name" : "金城武",
+                 "gemo" : "小武"
+                 },
+                 {
+                 "name" : "吴彦祖",
+                 "gemo" : "阿祖"
+                 }
+                 ]
+}
