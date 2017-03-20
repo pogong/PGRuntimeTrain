@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 	
+	self.title = @"关联属性";
+	
 	self.view.backgroundColor = [UIColor whiteColor];
 	
 	UITextField * tf = [[UITextField alloc]init];

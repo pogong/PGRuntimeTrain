@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 	
+	self.title = @"方法交换";
+	
 	_imageView.image = [UIImage imageNamed:@"on_show"];
 	
 }

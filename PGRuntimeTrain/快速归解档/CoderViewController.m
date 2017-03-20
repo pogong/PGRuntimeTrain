@@ -19,12 +19,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 	
+	self.title = @"快速归解档";
+	
 	self.view.backgroundColor = [UIColor whiteColor];
 	
 	CodeModel * model = [[CodeModel alloc]init];
 	model.name = @"leo";
 	model.age = 27;
-	model.gemo = @"pg";
+	model.gemo = @"pg";//假定这个属性不参与归档解档
 	
 	NSString * doc_path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
 	NSString * archive_path = [NSString stringWithFormat:@"%@/archive",doc_path];

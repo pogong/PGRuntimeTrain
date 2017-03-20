@@ -22,6 +22,8 @@
 	[super viewDidLoad];
 	// Do any additional setup after loading the view.
 	
+	self.title = @"KVO";
+	
 	self.view.backgroundColor = [UIColor whiteColor];
 	
 	_people = [[People alloc]init];

@@ -109,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				4D7086A21E7F899A00ECD315 /* 方法交换 */,
-				4D7086AA1E7F899A00ECD315 /* 方法无人处理 */,
 				4D7086AB1E7F899A00ECD315 /* 关联属性 */,
 				4D7086B01E7F899A00ECD315 /* 快速归解档 */,
 				4D7086B71E7F899A00ECD315 /* 字典转模型 */,
@@ -147,13 +146,6 @@
 				4D7086A91E7F899A00ECD315 /* UIImage+exchangeAct.m */,
 			);
 			path = "方法交换";
-			sourceTree = "<group>";
-		};
-		4D7086AA1E7F899A00ECD315 /* 方法无人处理 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "方法无人处理";
 			sourceTree = "<group>";
 		};
 		4D7086AB1E7F899A00ECD315 /* 关联属性 */ = {
@@ -460,6 +452,7 @@
 				4D7086A11E7F895500ECD315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
